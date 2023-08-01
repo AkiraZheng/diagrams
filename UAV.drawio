@@ -1,124 +1,134 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T14:17:56.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="TesKbBwhmIedpVdgucsr" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T06:50:47.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="iW02NWM_-6jHcsdoTnE9" version="21.6.6" type="github">
   <diagram name="第 1 页" id="PF-WP4IITFFx9WLVhS49">
-    <mxGraphModel dx="724" dy="379" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-1" target="cSiJAu-NFIXsrIoSFPES-2">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cSiJAu-NFIXsrIoSFPES-1" target="cSiJAu-NFIXsrIoSFPES-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-19" value="update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-18">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-19" value="update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-18" vertex="1" connectable="0">
           <mxGeometry x="0.1905" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-1" value="Strategic Gradient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-1" value="Strategic Gradient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="382.5" y="72" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-2" target="cSiJAu-NFIXsrIoSFPES-4">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="cSiJAu-NFIXsrIoSFPES-2" target="cSiJAu-NFIXsrIoSFPES-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-2" target="cSiJAu-NFIXsrIoSFPES-3">
+        <mxCell id="vXc08LiGLuB9_JlAZQu8-2" value="$$s$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-6">
+          <mxGeometry x="0.0044" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cSiJAu-NFIXsrIoSFPES-2" target="cSiJAu-NFIXsrIoSFPES-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-16" value="soft update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-14">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-16" value="soft update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-14" vertex="1" connectable="0">
           <mxGeometry x="0.0476" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-2" target="cSiJAu-NFIXsrIoSFPES-7">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cSiJAu-NFIXsrIoSFPES-2" target="cSiJAu-NFIXsrIoSFPES-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-48" value="$$a$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-25">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-48" value="$$a$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-25" vertex="1" connectable="0">
           <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-2" value="Master Network of Actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-2" value="Master Network of Actor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="140" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-3" target="cSiJAu-NFIXsrIoSFPES-8">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cSiJAu-NFIXsrIoSFPES-3" target="cSiJAu-NFIXsrIoSFPES-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-51" value="$${a^\prime }$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-32">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-51" value="$${a^\prime }$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-32" vertex="1" connectable="0">
           <mxGeometry x="-0.1621" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-3" value="Target Network of Actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-3" value="Target Network of Actor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="232" width="135" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-4" target="cSiJAu-NFIXsrIoSFPES-9">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cSiJAu-NFIXsrIoSFPES-4" target="cSiJAu-NFIXsrIoSFPES-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-37" value="$$\left( {{s_t},{r_t},{s_{t + 1}}} \right)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-36">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-37" value="$$\left( {{s_t},{r_t},{s_{t + 1}}} \right)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-36" vertex="1" connectable="0">
           <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-4" value="Environments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-4" value="Environments" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="140" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-4" target="cSiJAu-NFIXsrIoSFPES-2">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="cSiJAu-NFIXsrIoSFPES-4" target="cSiJAu-NFIXsrIoSFPES-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="310" as="sourcePoint" />
             <mxPoint x="560" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-7" target="cSiJAu-NFIXsrIoSFPES-8">
+        <mxCell id="vXc08LiGLuB9_JlAZQu8-1" value="$$a$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-5">
+          <mxGeometry x="-0.1378" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cSiJAu-NFIXsrIoSFPES-7" target="cSiJAu-NFIXsrIoSFPES-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-17" value="soft update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-15">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-17" value="soft update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-15" vertex="1" connectable="0">
           <mxGeometry x="-0.2381" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-7" target="cSiJAu-NFIXsrIoSFPES-1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cSiJAu-NFIXsrIoSFPES-7" target="cSiJAu-NFIXsrIoSFPES-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-24" value="$$Q(a)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-22">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-24" value="$$Q(a)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-22" vertex="1" connectable="0">
           <mxGeometry x="0.1898" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-7" value="Master Network of Critic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-7" value="Master Network of Critic" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="140" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-8" value="Target Network of Critic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-8" value="Target Network of Critic" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="233" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-9" value="Experience Replay Pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-9" value="Experience Replay Pool" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="355" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-10" target="cSiJAu-NFIXsrIoSFPES-7">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cSiJAu-NFIXsrIoSFPES-10" target="cSiJAu-NFIXsrIoSFPES-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-21" value="update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-20">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-21" value="update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-20" vertex="1" connectable="0">
           <mxGeometry x="-0.2857" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-10" value="loss function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-10" value="loss function" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="612.5" y="72" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.148;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-9" target="cSiJAu-NFIXsrIoSFPES-3">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.148;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cSiJAu-NFIXsrIoSFPES-9" target="cSiJAu-NFIXsrIoSFPES-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="310" as="sourcePoint" />
             <mxPoint x="560" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-40" value="$$\left( {{s_t},{a_t},{r_t},{s_{t + 1}}} \right)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-39">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-40" value="$$\left( {{s_t},{a_t},{r_t},{s_{t + 1}}} \right)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-39" vertex="1" connectable="0">
           <mxGeometry x="0.0555" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.865;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cSiJAu-NFIXsrIoSFPES-9" target="cSiJAu-NFIXsrIoSFPES-8">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.865;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cSiJAu-NFIXsrIoSFPES-9" target="cSiJAu-NFIXsrIoSFPES-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="668" y="350" as="sourcePoint" />
             <mxPoint x="560" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSiJAu-NFIXsrIoSFPES-42" value="$$\left( {{s_t},{a_t},{r_t},{s_{t + 1}}} \right)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cSiJAu-NFIXsrIoSFPES-41">
+        <mxCell id="cSiJAu-NFIXsrIoSFPES-42" value="$$\left( {{s_t},{a_t},{r_t},{s_{t + 1}}} \right)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cSiJAu-NFIXsrIoSFPES-41" vertex="1" connectable="0">
           <mxGeometry x="0.0163" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

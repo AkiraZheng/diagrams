@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T11:03:08.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="uHGk5o4QcO2CjtvAg9iF" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T11:07:22.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="8qMZTiVQbPOI8YiLGqVN" version="21.7.4" type="github">
   <diagram name="第 1 页" id="NPO2A7HK61cdXXj-eTh_">
-    <mxGraphModel dx="1024" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="477" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
         <mxCell id="U0oxnOfSBaumcdSujKbc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0oxnOfSBaumcdSujKbc-3" target="U0oxnOfSBaumcdSujKbc-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U0oxnOfSBaumcdSujKbc-3" value="感知目标传感器设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U0oxnOfSBaumcdSujKbc-3" value="Perception Sensor Devices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="150" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U0oxnOfSBaumcdSujKbc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="U0oxnOfSBaumcdSujKbc-4">
@@ -32,10 +32,10 @@
         <mxCell id="U0oxnOfSBaumcdSujKbc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U0oxnOfSBaumcdSujKbc-4" target="U0oxnOfSBaumcdSujKbc-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U0oxnOfSBaumcdSujKbc-4" value="目标进入UAV通信范围且被探测到" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U0oxnOfSBaumcdSujKbc-4" value="The target is in communication range of the UAV." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="210" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U0oxnOfSBaumcdSujKbc-5" value="飞行中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U0oxnOfSBaumcdSujKbc-5" value="In-flight" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U0oxnOfSBaumcdSujKbc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0oxnOfSBaumcdSujKbc-8" target="U0oxnOfSBaumcdSujKbc-2">
@@ -47,13 +47,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0oxnOfSBaumcdSujKbc-8" value="进行数据采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U0oxnOfSBaumcdSujKbc-8" value="Data acquisition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="280" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U0oxnOfSBaumcdSujKbc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="U0oxnOfSBaumcdSujKbc-9" target="U0oxnOfSBaumcdSujKbc-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U0oxnOfSBaumcdSujKbc-9" value="悬停" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U0oxnOfSBaumcdSujKbc-9" value="Hover" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="285" width="60" height="30" as="geometry" />
         </mxCell>
       </root>

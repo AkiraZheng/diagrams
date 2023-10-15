@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T10:27:17.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="MYwrbAQrRGczAgd9uMDr" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-15T10:27:31.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="_T1N8rD0K4MhzyZgLuSu" version="22.0.4" type="github" pages="2">
   <diagram name="逻辑1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
     <mxGraphModel dx="1489" dy="776" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -185,7 +185,10 @@
         <mxCell id="EcWJ_fMs4KpDX_4cVVHk-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;mesh设备汇聚&lt;br&gt;节点&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;作为TCP客户端&lt;/font&gt;" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Firewall_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="530" y="1380" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EcWJ_fMs4KpDX_4cVVHk-13" value="以太网" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="EcWJ_fMs4KpDX_4cVVHk-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EcWJ_fMs4KpDX_4cVVHk-13" target="EcWJ_fMs4KpDX_4cVVHk-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EcWJ_fMs4KpDX_4cVVHk-13" value="WebSocket" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="495" y="1050" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EcWJ_fMs4KpDX_4cVVHk-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;mesh设备汇聚&lt;br&gt;节点&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;作为TCP客户端&lt;/font&gt;" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Firewall_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">

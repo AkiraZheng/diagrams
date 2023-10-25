@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T09:43:37.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="53YR5cbDFc-xHVF2U7Vy" version="22.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T09:44:21.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="B-w7p30p7tUtRLL8HyD2" version="22.0.7" type="github">
   <diagram name="第 1 页" id="k4Vl-kW8DVjtGy1HV4eM">
     <mxGraphModel dx="1042" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -81,10 +81,10 @@
           <mxGeometry x="758.5" y="243" width="43" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dtHTRcF6AHHQQcvX4bGz-31" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="151" y="186" width="93" height="76" as="geometry" />
+          <mxGeometry x="205" y="186" width="39" height="76" as="geometry" />
         </mxCell>
         <mxCell id="dtHTRcF6AHHQQcvX4bGz-32" value="传感数据采集装置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="72" y="200" width="76" height="48" as="geometry" />
+          <mxGeometry x="129" y="196" width="76" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

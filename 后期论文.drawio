@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T08:50:01.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="U6D_FfXmqeREDc0d8Aa_" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T08:53:24.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="I_2_6VgGcJySSLNrWg6e" version="22.0.8" type="github">
   <diagram name="第 1 页" id="k4Vl-kW8DVjtGy1HV4eM">
     <mxGraphModel dx="1042" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -99,25 +99,37 @@
           <mxGeometry x="587" y="310" width="78" height="42" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-8" value="LoRa芯片SX1278" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="331" y="404" width="115" height="47" as="geometry" />
+          <mxGeometry x="330" y="404" width="115" height="47" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-9" value="LoRa芯片CC2530" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="496.5" y="404" width="115" height="46.5" as="geometry" />
+          <mxGeometry x="495.5" y="404" width="115" height="46.5" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-10" value="Message接口" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="363" y="493" width="222.5" height="23" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-11" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline;&quot;&gt;低功耗MCU：网关控制核心&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="328" y="552" width="282" height="60" as="geometry" />
+          <mxGeometry x="306" y="552" width="333" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-12" value="电源模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="239" y="628" width="74" height="59" as="geometry" />
+          <mxGeometry x="257" y="622" width="74" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-13" target="P_EMYtxCgPNGlRLgFlzM-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-13" value="RS485接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="506" y="640" width="71" height="59" as="geometry" />
+          <mxGeometry x="433.5" y="648" width="71" height="59" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-14" value="W5500&lt;br&gt;以太网模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="603" y="639" width="74" height="59" as="geometry" />
+          <mxGeometry x="564" y="645" width="74" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.882;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-14" target="P_EMYtxCgPNGlRLgFlzM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.915;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-9" target="P_EMYtxCgPNGlRLgFlzM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.072;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-8" target="P_EMYtxCgPNGlRLgFlzM-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T13:28:20.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="oYKrcfyLLgjYyxfnfFaY" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T13:29:56.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="w32xGpnNc7J0Ir7-S-aS" version="22.0.8" type="github">
   <diagram name="第 1 页" id="k4Vl-kW8DVjtGy1HV4eM">
     <mxGraphModel dx="1042" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -255,14 +255,31 @@
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-57" value="数据响应日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="771" y="1093" width="75" height="51" as="geometry" />
         </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-61" target="P_EMYtxCgPNGlRLgFlzM-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-68" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_EMYtxCgPNGlRLgFlzM-67">
+          <mxGeometry x="0.2255" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-61" value="数据预警规则判定" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="545" y="1147" width="178" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="P_EMYtxCgPNGlRLgFlzM-62" value="解包判断传感器预警类型：&lt;br&gt;温湿度、烟感、定位......" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="448" y="1214" width="152" height="60" as="geometry" />
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-62" target="P_EMYtxCgPNGlRLgFlzM-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-62" value="平台端显示异常警告" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1218" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-63" value="解包判断传感器预警类型：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;温湿度、烟感、定位......" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="552.5" y="1059" width="175" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-65" value="数据异常日志" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1270" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-70" value="正常记录日志" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="653.5" y="1218" width="126" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

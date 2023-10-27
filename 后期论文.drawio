@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T08:46:27.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="izNKCniKQ8rBK8WLx6pU" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T08:50:01.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="U6D_FfXmqeREDc0d8Aa_" version="22.0.8" type="github">
   <diagram name="第 1 页" id="k4Vl-kW8DVjtGy1HV4eM">
     <mxGraphModel dx="1042" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -105,10 +105,19 @@
           <mxGeometry x="496.5" y="404" width="115" height="46.5" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-10" value="Message接口" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="363" y="501" width="222.5" height="23" as="geometry" />
+          <mxGeometry x="363" y="493" width="222.5" height="23" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-11" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline;&quot;&gt;低功耗MCU：网关控制核心&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="328" y="552" width="282" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-12" value="电源模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="628" width="74" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-13" value="RS485接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="506" y="640" width="71" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-14" value="W5500&lt;br&gt;以太网模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="603" y="639" width="74" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

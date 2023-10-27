@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T13:48:24.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="muGSNKk8_MEZ7Uve_1Eq" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T13:49:15.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="bmkNvoRVQ1AbdRc9lDRP" version="22.0.8" type="github">
   <diagram name="第 1 页" id="k4Vl-kW8DVjtGy1HV4eM">
     <mxGraphModel dx="1042" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -308,16 +308,32 @@
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-109" value="边缘客户端注册/登录申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="860" width="158" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-111" target="P_EMYtxCgPNGlRLgFlzM-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-122" value="TLS安全通道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_EMYtxCgPNGlRLgFlzM-120">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-111" value="安全认证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="708.5" y="958" width="161" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="P_EMYtxCgPNGlRLgFlzM-114" value="安全连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="708.5" y="1019" width="161" height="39" as="geometry" />
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-114" target="P_EMYtxCgPNGlRLgFlzM-115">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P_EMYtxCgPNGlRLgFlzM-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-115" target="P_EMYtxCgPNGlRLgFlzM-109">
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-123" value="TLS安全通道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_EMYtxCgPNGlRLgFlzM-121">
+          <mxGeometry x="-0.4957" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-114" value="安全连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="708.5" y="1031" width="161" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-115" target="P_EMYtxCgPNGlRLgFlzM-109">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="656" y="1106" />
+              <mxPoint x="656" y="1124" />
               <mxPoint x="656" y="890" />
             </Array>
           </mxGeometry>
@@ -328,7 +344,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-115" value="指令交互" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="708.5" y="1086" width="161" height="39" as="geometry" />
+          <mxGeometry x="708.5" y="1104" width="161" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T13:49:15.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="bmkNvoRVQ1AbdRc9lDRP" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T13:51:46.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="m7kB60APXlZ4ZtYtmZP5" version="22.0.8" type="github">
   <diagram name="第 1 页" id="k4Vl-kW8DVjtGy1HV4eM">
     <mxGraphModel dx="1042" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -89,48 +89,26 @@
         <mxCell id="dtHTRcF6AHHQQcvX4bGz-32" value="传感数据采集装置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="127" y="110" width="76" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="P_EMYtxCgPNGlRLgFlzM-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-1" target="P_EMYtxCgPNGlRLgFlzM-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="313" y="389" />
-              <mxPoint x="343" y="389" />
-              <mxPoint x="343" y="394" />
-              <mxPoint x="388" y="394" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-1" value="LoRa节点1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="278" y="327" width="69" height="42" as="geometry" />
+          <mxGeometry x="278" y="325" width="69" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="P_EMYtxCgPNGlRLgFlzM-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-2" target="P_EMYtxCgPNGlRLgFlzM-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="399" y="392" />
-              <mxPoint x="388" y="392" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-2" target="P_EMYtxCgPNGlRLgFlzM-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-2" value="LoRa节点n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="364" y="327" width="69" height="42" as="geometry" />
+          <mxGeometry x="364" y="325" width="69" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="P_EMYtxCgPNGlRLgFlzM-42" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-3" target="P_EMYtxCgPNGlRLgFlzM-9">
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-3" target="P_EMYtxCgPNGlRLgFlzM-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-3" value="ZigBee节点1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="479" y="327" width="78" height="42" as="geometry" />
+          <mxGeometry x="479" y="325" width="78" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="P_EMYtxCgPNGlRLgFlzM-43" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-7" target="P_EMYtxCgPNGlRLgFlzM-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="626" y="389" />
-              <mxPoint x="576" y="389" />
-              <mxPoint x="576" y="396" />
-              <mxPoint x="553" y="396" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-7" target="P_EMYtxCgPNGlRLgFlzM-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-7" value="ZigBee节点n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587" y="327" width="78" height="42" as="geometry" />
+          <mxGeometry x="587" y="325" width="78" height="42" as="geometry" />
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-8" value="LoRa芯片SX1278" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="404" width="115" height="47" as="geometry" />
@@ -345,6 +323,9 @@
         </mxCell>
         <mxCell id="P_EMYtxCgPNGlRLgFlzM-115" value="指令交互" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="708.5" y="1104" width="161" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="P_EMYtxCgPNGlRLgFlzM-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.09;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="P_EMYtxCgPNGlRLgFlzM-1" target="P_EMYtxCgPNGlRLgFlzM-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

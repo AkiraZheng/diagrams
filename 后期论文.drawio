@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T14:23:01.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="py6Ic01KIPq5_i-XcM4b" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T14:23:39.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="V-a9X3Bu4T92VvMiFn3e" version="22.1.7" type="github">
   <diagram name="第 1 页" id="k4Vl-kW8DVjtGy1HV4eM">
     <mxGraphModel dx="1042" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -334,10 +334,10 @@
           <mxGeometry x="759.5" y="302" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GNe1TD_661nRrOs4SNgP-4" value="LoRa通信模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="735" y="382" width="60" height="40" as="geometry" />
+          <mxGeometry x="733" y="366" width="45" height="72" as="geometry" />
         </mxCell>
         <mxCell id="GNe1TD_661nRrOs4SNgP-5" value="以太网口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="807" y="372" width="90" height="60" as="geometry" />
+          <mxGeometry x="845" y="372" width="52" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GNe1TD_661nRrOs4SNgP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="GNe1TD_661nRrOs4SNgP-7" target="GNe1TD_661nRrOs4SNgP-1">
           <mxGeometry relative="1" as="geometry">
@@ -381,6 +381,9 @@
         </mxCell>
         <mxCell id="GNe1TD_661nRrOs4SNgP-17" value="SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1060.5" y="425" width="43" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe1TD_661nRrOs4SNgP-18" value="MCU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="789" y="367" width="45" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

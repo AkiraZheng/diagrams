@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T07:22:53.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="efF87E0rEdErZj-gz6B_" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T07:51:23.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="G8uDnnxAfZb76oDrs3Qw" version="22.1.11" type="github">
   <diagram name="第 1 页" id="k4Vl-kW8DVjtGy1HV4eM">
     <mxGraphModel dx="1042" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -353,7 +353,7 @@
         <mxCell id="GNe1TD_661nRrOs4SNgP-8" value="分布式控制平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="972" y="302" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GNe1TD_661nRrOs4SNgP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GNe1TD_661nRrOs4SNgP-10" target="GNe1TD_661nRrOs4SNgP-14" edge="1">
+        <mxCell id="GNe1TD_661nRrOs4SNgP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="GNe1TD_661nRrOs4SNgP-10" target="GNe1TD_661nRrOs4SNgP-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FHeOxL1Q2D0V8FDSQWKf-2" value="Websocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GNe1TD_661nRrOs4SNgP-9">
@@ -381,6 +381,55 @@
         </mxCell>
         <mxCell id="GNe1TD_661nRrOs4SNgP-18" value="MCU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="789" y="367" width="45" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FHeOxL1Q2D0V8FDSQWKf-5" target="FHeOxL1Q2D0V8FDSQWKf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-4" value="TLS安全通道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FHeOxL1Q2D0V8FDSQWKf-3">
+          <mxGeometry x="-0.168" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-5" value="边缘客户端注册/登录申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="702.75" y="1188" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FHeOxL1Q2D0V8FDSQWKf-8" target="FHeOxL1Q2D0V8FDSQWKf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-7" value="TLS安全通道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FHeOxL1Q2D0V8FDSQWKf-6">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-8" value="安全认证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="701.25" y="1286" width="161" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FHeOxL1Q2D0V8FDSQWKf-11" target="FHeOxL1Q2D0V8FDSQWKf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-10" value="TLS安全通道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FHeOxL1Q2D0V8FDSQWKf-9">
+          <mxGeometry x="-0.4957" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-11" value="安全连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="701.25" y="1359" width="161" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="FHeOxL1Q2D0V8FDSQWKf-14" target="FHeOxL1Q2D0V8FDSQWKf-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="648.75" y="1452" />
+              <mxPoint x="648.75" y="1218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-13" value="Websocket+JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FHeOxL1Q2D0V8FDSQWKf-12">
+          <mxGeometry x="0.0584" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHeOxL1Q2D0V8FDSQWKf-14" value="指令交互" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="701.25" y="1432" width="161" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

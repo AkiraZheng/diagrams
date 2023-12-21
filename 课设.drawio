@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T09:09:54.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="L6BH3GCqYJHpwV2Tjs0f" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T09:11:22.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="_lyepFy7VxjVXznwyfaY" version="22.1.11" type="github">
   <diagram name="第 1 页" id="crzMxCz0xYNelfO2YA_n">
     <mxGraphModel dx="1002" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C6NJyYZB2r9F9oJMgfG5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6NJyYZB2r9F9oJMgfG5-1" target="C6NJyYZB2r9F9oJMgfG5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C6NJyYZB2r9F9oJMgfG5-1" value="基于Android设计的&lt;br&gt;BLE与HC-05指令交互APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="201" y="64" width="150" height="60" as="geometry" />
+          <mxGeometry x="223" y="47" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C6NJyYZB2r9F9oJMgfG5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C6NJyYZB2r9F9oJMgfG5-5" target="C6NJyYZB2r9F9oJMgfG5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C6NJyYZB2r9F9oJMgfG5-5" value="获取权限：&lt;br&gt;蓝牙权限+位置权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="238" y="131" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C6NJyYZB2r9F9oJMgfG5-7" value="开启广播扫描：&lt;br&gt;扫描周围蓝牙设备" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="238" y="218" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

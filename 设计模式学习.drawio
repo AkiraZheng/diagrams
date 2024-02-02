@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T14:43:53.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="nMztTVgT9VkFmuEm6bAt" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T14:45:54.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="aW0_XM46yQCwO-6_D9R6" version="22.1.17" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1895" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1349" dy="572" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -324,7 +324,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-85" value="手机产品基类：Phone" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="1210" width="160" height="140" as="geometry">
+          <mxGeometry x="125" y="1279" width="160" height="140" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -338,7 +338,7 @@
           <mxGeometry y="60" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-89" value="Iphone" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="1470" width="160" height="90" as="geometry">
+          <mxGeometry x="25" y="1539" width="160" height="90" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -353,8 +353,8 @@
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-93" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEZBuMry3DToWPJbF5Hx-89" target="iEZBuMry3DToWPJbF5Hx-85">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="200" y="923" as="sourcePoint" />
-            <mxPoint x="200" y="923" as="targetPoint" />
+            <mxPoint x="195" y="992" as="sourcePoint" />
+            <mxPoint x="195" y="992" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-94" value="继承基类Phone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iEZBuMry3DToWPJbF5Hx-93">
@@ -363,7 +363,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-95" value="HuaWei" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="1470" width="160" height="86" as="geometry">
+          <mxGeometry x="235" y="1539" width="160" height="86" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -378,8 +378,8 @@
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-99" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEZBuMry3DToWPJbF5Hx-95" target="iEZBuMry3DToWPJbF5Hx-85">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="120" y="1483" as="sourcePoint" />
-            <mxPoint x="220" y="1381" as="targetPoint" />
+            <mxPoint x="115" y="1552" as="sourcePoint" />
+            <mxPoint x="215" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-100" value="继承基类Phone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iEZBuMry3DToWPJbF5Hx-99">
@@ -388,7 +388,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-101" value="工厂基类：AbstractFactory" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1000" y="1293.91" width="192" height="154" as="geometry">
+          <mxGeometry x="995" y="1362.91" width="192" height="154" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -410,20 +410,20 @@
         <mxCell id="iEZBuMry3DToWPJbF5Hx-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEZBuMry3DToWPJbF5Hx-106" target="iEZBuMry3DToWPJbF5Hx-85">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1253" y="1160" />
-              <mxPoint x="210" y="1160" />
+              <mxPoint x="1248" y="1229" />
+              <mxPoint x="205" y="1229" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-106" value="Client" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1258" y="1307.91" width="90" height="30" as="geometry" />
+          <mxGeometry x="1253" y="1376.91" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-111" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEZBuMry3DToWPJbF5Hx-133">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="971" y="1547.91" as="sourcePoint" />
-            <mxPoint x="1091" y="1447.91" as="targetPoint" />
+            <mxPoint x="966" y="1616.91" as="sourcePoint" />
+            <mxPoint x="1086" y="1516.91" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1021" y="1497.91" />
+              <mxPoint x="1016" y="1566.91" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -433,7 +433,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-113" value="HuaWeiFactory" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1081" y="1552.91" width="220" height="150" as="geometry">
+          <mxGeometry x="1076" y="1621.91" width="220" height="150" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -451,10 +451,10 @@
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-117" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;entryX=0.48;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1190" y="1552.91" as="sourcePoint" />
-            <mxPoint x="1091.16" y="1446.902" as="targetPoint" />
+            <mxPoint x="1185" y="1621.91" as="sourcePoint" />
+            <mxPoint x="1086.16" y="1515.902" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1141" y="1497.91" />
+              <mxPoint x="1136" y="1566.91" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -464,7 +464,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-133" value="IphoneFactory" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="850" y="1552.91" width="220" height="150" as="geometry">
+          <mxGeometry x="845" y="1621.91" width="220" height="150" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -481,7 +481,7 @@
           <mxGeometry y="84" width="220" height="66" as="geometry" />
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-138" value="手机壳产品基类：PhoneShell" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="1218" width="180" height="140" as="geometry">
+          <mxGeometry x="525" y="1287" width="180" height="140" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -495,7 +495,7 @@
           <mxGeometry y="60" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-142" value="Iphone" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="1468" width="160" height="90" as="geometry">
+          <mxGeometry x="425" y="1537" width="160" height="90" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -510,8 +510,8 @@
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-146" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;fontColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEZBuMry3DToWPJbF5Hx-142" target="iEZBuMry3DToWPJbF5Hx-138">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="600" y="921" as="sourcePoint" />
-            <mxPoint x="600" y="921" as="targetPoint" />
+            <mxPoint x="595" y="990" as="sourcePoint" />
+            <mxPoint x="595" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-147" value="继承基类PhoneShell" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="iEZBuMry3DToWPJbF5Hx-146">
@@ -520,7 +520,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-148" value="HuaWei" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="1468" width="160" height="86" as="geometry">
+          <mxGeometry x="635" y="1537" width="160" height="86" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -535,8 +535,8 @@
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-152" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;fontColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEZBuMry3DToWPJbF5Hx-148" target="iEZBuMry3DToWPJbF5Hx-138">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="520" y="1481" as="sourcePoint" />
-            <mxPoint x="620" y="1379" as="targetPoint" />
+            <mxPoint x="515" y="1550" as="sourcePoint" />
+            <mxPoint x="615" y="1448" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-153" value="继承基类PhoneShell" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="iEZBuMry3DToWPJbF5Hx-152">
@@ -553,18 +553,18 @@
         <mxCell id="iEZBuMry3DToWPJbF5Hx-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.529;entryY=1.108;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC0066;dashed=1;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEZBuMry3DToWPJbF5Hx-114" target="iEZBuMry3DToWPJbF5Hx-98">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1321" y="1592" />
-              <mxPoint x="1321" y="1770" />
-              <mxPoint x="325" y="1770" />
+              <mxPoint x="1316" y="1661" />
+              <mxPoint x="1316" y="1839" />
+              <mxPoint x="320" y="1839" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iEZBuMry3DToWPJbF5Hx-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.52;entryY=1.185;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC0066;dashed=1;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iEZBuMry3DToWPJbF5Hx-132" target="iEZBuMry3DToWPJbF5Hx-151">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1360" y="1617" />
-              <mxPoint x="1360" y="1860" />
-              <mxPoint x="723" y="1860" />
+              <mxPoint x="1355" y="1686" />
+              <mxPoint x="1355" y="1929" />
+              <mxPoint x="718" y="1929" />
             </Array>
           </mxGeometry>
         </mxCell>

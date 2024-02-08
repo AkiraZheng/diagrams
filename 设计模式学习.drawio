@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T12:19:59.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="a2I2ZGDXc99Xzb0Nr0cc" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T12:23:45.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="aXEO0xbpf21BDWtiPJg3" version="23.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1282" dy="543" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -584,7 +584,7 @@
         </mxCell>
         <mxCell id="vZ8n9ure-Hfy_wp9-xaa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vZ8n9ure-Hfy_wp9-xaa-6" target="vZ8n9ure-Hfy_wp9-xaa-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1306" y="615" as="targetPoint" />
+            <mxPoint x="1336" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vZ8n9ure-Hfy_wp9-xaa-5" value="依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vZ8n9ure-Hfy_wp9-xaa-4">
@@ -593,10 +593,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vZ8n9ure-Hfy_wp9-xaa-6" value="MainForm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1180" y="600" width="80" height="30" as="geometry" />
+          <mxGeometry x="1210" y="600" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vZ8n9ure-Hfy_wp9-xaa-8" value="Shape&lt;br&gt;抽象类" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1310" y="590" width="100" height="50" as="geometry" />
+          <mxGeometry x="1340" y="590" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vZ8n9ure-Hfy_wp9-xaa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vZ8n9ure-Hfy_wp9-xaa-10" target="vZ8n9ure-Hfy_wp9-xaa-8">
           <mxGeometry relative="1" as="geometry" />
@@ -607,7 +607,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vZ8n9ure-Hfy_wp9-xaa-10" value="Line&lt;br&gt;Rect" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1330" y="680" width="60" height="70" as="geometry" />
+          <mxGeometry x="1360" y="680" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vZ8n9ure-Hfy_wp9-xaa-13" value="稳定的MainForm依赖稳定的抽象类Shape" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1230" y="550" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZ8n9ure-Hfy_wp9-xaa-14" value="高层模块MainForm依赖于变化的底层模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="548" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZ8n9ure-Hfy_wp9-xaa-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#004C99;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1115" y="614" as="sourcePoint" />
+            <mxPoint x="1185" y="614" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T10:09:21.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="mIAYY59ob_LAXjrO3aQQ" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-09T10:10:15.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="KSMsxm0ftNmR9WvxT2ux" version="24.0.1" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -408,13 +408,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-28" value="Reactor模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-28" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;Reactor模式&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="1685" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jEIaa_g_1_Zy7GzbISjY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jEIaa_g_1_Zy7GzbISjY-31" target="jEIaa_g_1_Zy7GzbISjY-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-31" value="Proactor模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-31" value="&lt;font color=&quot;#0066cc&quot;&gt;&lt;b&gt;Proactor模式&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="1682" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jEIaa_g_1_Zy7GzbISjY-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -435,7 +435,7 @@
             <mxPoint x="870" y="1860" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-47" value="&lt;div&gt;Proactor&lt;/div&gt;读写操作不在线程池中进行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-46">
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-47" value="&lt;div&gt;&lt;font color=&quot;#0066cc&quot;&gt;&lt;b&gt;Proactor&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;读写操作不在线程池中进行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-46">
           <mxGeometry x="-0.44" y="1" relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
@@ -463,7 +463,7 @@
             <mxPoint x="684" y="1861" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-62" value="&lt;div&gt;Reactor&lt;/div&gt;需要处理I/O的读写操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-61">
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-62" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;Reactor&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;需要处理I/O的读写操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-61">
           <mxGeometry x="-0.2796" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

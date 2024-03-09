@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T10:03:19.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="0_qicPFK0ZBE2XMaP27F" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-09T10:09:21.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="mIAYY59ob_LAXjrO3aQQ" version="24.0.1" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -391,8 +391,7 @@
               <mxPoint x="160" y="1631" />
               <mxPoint x="240" y="1631" />
               <mxPoint x="240" y="1560" />
-              <mxPoint x="780" y="1560" />
-              <mxPoint x="780" y="1599" />
+              <mxPoint x="785" y="1560" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -401,47 +400,73 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jEIaa_g_1_Zy7GzbISjY-28" target="jEIaa_g_1_Zy7GzbISjY-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-40" value="需要处理I/O的读写操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-39">
-          <mxGeometry x="-0.2563" relative="1" as="geometry">
-            <mxPoint x="3" y="-18" as="offset" />
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jEIaa_g_1_Zy7GzbISjY-28" target="jEIaa_g_1_Zy7GzbISjY-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1745" />
+              <mxPoint x="783" y="1745" />
+            </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jEIaa_g_1_Zy7GzbISjY-28" target="jEIaa_g_1_Zy7GzbISjY-41">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jEIaa_g_1_Zy7GzbISjY-28" value="Reactor模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="1685" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jEIaa_g_1_Zy7GzbISjY-31" target="jEIaa_g_1_Zy7GzbISjY-33">
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jEIaa_g_1_Zy7GzbISjY-31" target="jEIaa_g_1_Zy7GzbISjY-52">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-35" value="读写操作不在线程池中进行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-34">
-          <mxGeometry x="-0.44" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-36" value="而是将完成读写后的数据串&lt;div&gt;到worker中进行下一步处理&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-34">
-          <mxGeometry x="0.2563" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="jEIaa_g_1_Zy7GzbISjY-31" value="Proactor模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="1682" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-33" value="process&lt;div&gt;request&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1793" width="110" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="jEIaa_g_1_Zy7GzbISjY-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="1462" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-38" value="&lt;div&gt;request&lt;/div&gt;读操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="635" y="1796" width="50" height="37" as="geometry" />
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="jEIaa_g_1_Zy7GzbISjY-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="1863" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-41" value="&lt;div&gt;request&lt;br&gt;&lt;/div&gt;写操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="695" y="1796" width="50" height="37" as="geometry" />
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="jEIaa_g_1_Zy7GzbISjY-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="1863" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.794;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="jEIaa_g_1_Zy7GzbISjY-49" source="jEIaa_g_1_Zy7GzbISjY-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="1860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-47" value="&lt;div&gt;Proactor&lt;/div&gt;读写操作不在线程池中进行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-46">
+          <mxGeometry x="-0.44" y="1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-48" value="而是将完成读写后的数据串&lt;div&gt;到worker中进行下一步处理&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-46">
+          <mxGeometry x="0.2563" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-49" value="process&lt;div&gt;request&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="1931" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-50" value="&lt;div&gt;request&lt;/div&gt;读操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1934" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-51" value="&lt;div&gt;request&lt;br&gt;&lt;/div&gt;写操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1934" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-52" value="获取数据库池的一个可用数据库连接&lt;div&gt;（通过数据库连接池的信号量来控制）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="1764" width="295" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.165;exitY=1.078;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="683.675" y="1803.808" as="sourcePoint" />
+            <mxPoint x="684" y="1861" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-62" value="&lt;div&gt;Reactor&lt;/div&gt;需要处理I/O的读写操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-61">
+          <mxGeometry x="-0.2796" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T12:31:35.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Aj-MFhgyuWt2Gy_g5DAc" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-09T12:37:02.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="hvv33bp_GYozJJnkSnZ6" version="24.0.1" type="github">
   <diagram name="第 1 页" id="WRjsuyDADFx8xglvIogP">
     <mxGraphModel dx="4534" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="zWZj8fFm0EnB-VlaON-8-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1. 解析：提取&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;域名&lt;/font&gt;&lt;/b&gt; + 端口 + 协议...&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-3050" y="-985" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zWZj8fFm0EnB-VlaON-8-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;本地&lt;font color=&quot;#0066cc&quot;&gt;&lt;b&gt;DNS缓存&lt;/b&gt;&lt;/font&gt;找是否有该域名的解析结果，无则发起&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;DNS递归查询请求&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2984" y="-955" width="490" height="30" as="geometry" />
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;本地&lt;font color=&quot;#0066cc&quot;&gt;&lt;b&gt;DNS缓存&lt;/b&gt;&lt;/font&gt;找是否有该域名的解析结果，无则发起&lt;b&gt;&lt;font color=&quot;#0066cc&quot;&gt;DNS递归查询请求（客户端发起请求，等待结果就行）&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2990" y="-955" width="730" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zWZj8fFm0EnB-VlaON-8-6" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;响应&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#0066cc&quot;&gt;报文+状态码&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2460" y="-810" width="140" height="30" as="geometry" />
@@ -27,6 +27,9 @@
         </mxCell>
         <mxCell id="zWZj8fFm0EnB-VlaON-8-10" value="&lt;b&gt;传输层&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2475" y="-630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-11" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;2. DNS解析：本地DNS(运营商) -&amp;gt; 根DNS -&amp;gt; 顶级DNS(.com,.cn) -&amp;gt; 权威DNS(.baidu,.google获得IP)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3180" y="-1090" width="680" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

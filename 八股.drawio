@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T05:30:17.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="QZmImXeTW-CQZArxW2pp" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T05:33:54.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="iDPLojuvorLMeB5acCya" version="24.0.1" type="github">
   <diagram name="第 1 页" id="WRjsuyDADFx8xglvIogP">
     <mxGraphModel dx="4534" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,6 +174,41 @@
         </mxCell>
         <mxCell id="zWZj8fFm0EnB-VlaON-8-52" value="&lt;font color=&quot;#ff0000&quot;&gt;客户端通过官方CA的公钥验证数字证书&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;官方的公钥一般内嵌在浏览器中，所以是安全的&lt;/font&gt;&lt;/div&gt;&lt;div&gt;(1)验证成功：证明不是伪造的，将自己的对称密钥&lt;/div&gt;&lt;div&gt;通&lt;span style=&quot;background-color: initial;&quot;&gt;过服务端公钥加密后发送出去&lt;/span&gt;&lt;/div&gt;&lt;div&gt;（2）验证失败：结束会话&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2740" y="-502" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-54" value="中间人不具有真实&lt;div&gt;服务端的私钥，无法解密获得密钥&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2260" y="-367" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.004;entryY=0.757;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="zWZj8fFm0EnB-VlaON-8-41" target="zWZj8fFm0EnB-VlaON-8-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-56" value="验证成功后使用正确的公钥&lt;div&gt;加密随机生成的对称密钥&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zWZj8fFm0EnB-VlaON-8-55">
+          <mxGeometry x="0.0795" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-58" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1.011;exitY=0.687;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="zWZj8fFm0EnB-VlaON-8-54" target="zWZj8fFm0EnB-VlaON-8-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1970" y="-260" as="sourcePoint" />
+            <mxPoint x="-1920" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-59" value="服务端获得对称密钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zWZj8fFm0EnB-VlaON-8-58">
+          <mxGeometry x="-0.1619" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="zWZj8fFm0EnB-VlaON-8-40" target="zWZj8fFm0EnB-VlaON-8-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1833" y="-290" />
+              <mxPoint x="-2450" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-62" value="通过安全的对称密钥进行通信数据的加密解密" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zWZj8fFm0EnB-VlaON-8-61">
+          <mxGeometry x="0.0257" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

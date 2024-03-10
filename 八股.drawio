@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T05:41:57.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="3pK4pSuEbOsljQYLQ_tF" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T05:51:22.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Vsnvpwpxep9arjVAK2wv" version="24.0.1" type="github">
   <diagram name="第 1 页" id="WRjsuyDADFx8xglvIogP">
     <mxGraphModel dx="4534" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -173,7 +173,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zWZj8fFm0EnB-VlaON-8-52" value="&lt;font color=&quot;#ff0000&quot;&gt;客户端通过官方CA的公钥验证数字证书&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;官方的公钥一般内嵌在浏览器中，所以是安全的&lt;/font&gt;&lt;/div&gt;&lt;div&gt;(1)验证成功：证明不是伪造的，将自己的对称密钥&lt;/div&gt;&lt;div&gt;通&lt;span style=&quot;background-color: initial;&quot;&gt;过服务端公钥加密后发送出去&lt;/span&gt;&lt;/div&gt;&lt;div&gt;（2）验证失败：结束会话&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2740" y="-502" width="290" height="90" as="geometry" />
+          <mxGeometry x="-2700" y="-520" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zWZj8fFm0EnB-VlaON-8-54" value="中间人不具有真实&lt;div&gt;服务端的私钥，无法解密获得密钥&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2260" y="-367" width="200" height="40" as="geometry" />
@@ -221,6 +221,54 @@
         </mxCell>
         <mxCell id="zWZj8fFm0EnB-VlaON-8-70" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;4&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="-2030" y="-280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-71" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;TLS/SSL&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="-2450" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2320" y="30" width="190" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-73" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;非对称加密&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="80" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-74" value="RSA ECC DH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2275" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-75" value="&lt;ul&gt;&lt;li&gt;1 v N&lt;/li&gt;&lt;li&gt;客户端共享公钥&lt;/li&gt;&lt;li&gt;服务器掌握私钥&lt;/li&gt;&lt;li&gt;客户端信息只能服务器解密&lt;/li&gt;&lt;li&gt;客户端向服务器发唯一对称密钥&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2345" y="130" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-76" value="身份验证&lt;div&gt;密钥协商&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-81" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2090" y="30" width="190" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-82" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;对称加密&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="-2080" y="80" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-83" value="AES DES RC4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2045" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-84" value="&lt;ul&gt;&lt;li&gt;1v1&lt;/li&gt;&lt;li&gt;服务器和客户端共享相同密钥&lt;/li&gt;&lt;li&gt;不同客户端密钥不同&lt;/li&gt;&lt;li&gt;服务器维护多个密钥&lt;/li&gt;&lt;li&gt;密钥协商是安全基础&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2115" y="130" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-85" value="信息加密" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="-2080" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-86" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1860" y="30" width="190" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-87" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;散列算法&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="-1850" y="80" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-88" value="MD5 SHA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1805" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-89" value="&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;函数不可逆&lt;/li&gt;&lt;li&gt;对输入敏感&lt;/li&gt;&lt;li&gt;输出长度固定&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1885" y="135" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-90" value="完整性校验" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="-1850" y="230" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

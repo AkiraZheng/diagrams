@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T10:10:15.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="KSMsxm0ftNmR9WvxT2ux" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T09:57:16.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="a7chLWUbnMBVdI02bJZO" version="24.0.1" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -435,7 +435,7 @@
             <mxPoint x="870" y="1860" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEIaa_g_1_Zy7GzbISjY-47" value="&lt;div&gt;&lt;font color=&quot;#0066cc&quot;&gt;&lt;b&gt;Proactor&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;读写操作不在线程池中进行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-46">
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-47" value="&lt;div&gt;&lt;font color=&quot;#0066cc&quot;&gt;&lt;b&gt;Proactor&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;读写操作在主线程中已调用&lt;div&gt;http_conn函数完成了&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEIaa_g_1_Zy7GzbISjY-46">
           <mxGeometry x="-0.44" y="1" relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>

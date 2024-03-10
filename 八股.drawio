@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T05:52:00.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="vz1_HvIRE8Kw5xGcgzEF" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T05:52:50.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Uh2l5lhBpWi0fLF-_ZXg" version="24.0.1" type="github">
   <diagram name="第 1 页" id="WRjsuyDADFx8xglvIogP">
     <mxGraphModel dx="4534" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -278,6 +278,22 @@
         </mxCell>
         <mxCell id="zWZj8fFm0EnB-VlaON-8-93" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;+&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1900" y="85" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWZj8fFm0EnB-VlaON-8-76" target="zWZj8fFm0EnB-VlaON-8-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-97" value="对称密钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zWZj8fFm0EnB-VlaON-8-96">
+          <mxGeometry x="-0.0045" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWZj8fFm0EnB-VlaON-8-85" target="zWZj8fFm0EnB-VlaON-8-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWZj8fFm0EnB-VlaON-8-99" value="加密" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zWZj8fFm0EnB-VlaON-8-98">
+          <mxGeometry x="-0.1584" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T13:59:19.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="qTsq1miNgoO_8sry66N_" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T11:11:41.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="SxjO0CTK00c4hljPWgbH" version="24.0.1" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -836,6 +836,15 @@
         </mxCell>
         <mxCell id="jEIaa_g_1_Zy7GzbISjY-197" value="&lt;font color=&quot;#d0cee2&quot;&gt;&lt;b&gt;函数进一步对URL进行处理&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#d0cee2&quot;&gt;&lt;b&gt;从server获取资源、注册登录等&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#d0cee2&quot;&gt;&lt;b&gt;本项目URL主要有8种&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=#0066CC;" vertex="1" parent="1">
           <mxGeometry x="427" y="1985" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-198" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="2440" width="485" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-199" value="&lt;b&gt;do_request实现登录/注册流程图&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="2710" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jEIaa_g_1_Zy7GzbISjY-200" value="&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;工作线程worker&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="925" y="2450" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

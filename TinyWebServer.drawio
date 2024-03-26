@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T13:16:35.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="jpYzMqQzM_Wiz-GvELaD" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T13:17:07.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JF6YgPxyopB2btKPKOqo" version="24.0.2" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1096,10 +1096,10 @@
         <mxCell id="uyQCsETFACLwB1ddb7fu-10" value="B4" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1455" y="77" width="40" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="uyQCsETFACLwB1ddb7fu-11" value="页表&lt;div&gt;Page Table&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="uyQCsETFACLwB1ddb7fu-11" value="程序A的页表&lt;div&gt;Page Table&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="990" y="184" width="120" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="uyQCsETFACLwB1ddb7fu-12" value="页表&lt;div&gt;Page Table&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="uyQCsETFACLwB1ddb7fu-12" value="程序B的页表&lt;div&gt;Page Table&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="1300" y="184" width="120" height="44" as="geometry" />
         </mxCell>
         <mxCell id="uyQCsETFACLwB1ddb7fu-13" value="程序A的虚拟空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">

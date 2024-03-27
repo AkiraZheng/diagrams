@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T07:29:48.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="EMQt0Fzc9BlqBiGjc2vd" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T07:59:11.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="BRcPxzjbD-BM2LPreb6q" version="24.0.2" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1448,6 +1448,63 @@
         </mxCell>
         <mxCell id="uyQCsETFACLwB1ddb7fu-153" value="准备返回用户态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1140" y="1336" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-156" value="定时器alarm&lt;span style=&quot;background-color: initial;&quot;&gt;到时&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="1548.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#cce5ff;strokeColor=#004C99;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-158" target="uyQCsETFACLwB1ddb7fu-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1109.5" y="1719" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="1699" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-158" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;管道pipefd&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;写端&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1172.5" y="1618.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-156" target="uyQCsETFACLwB1ddb7fu-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-161" value="主循环中epooll&lt;div&gt;读端监听到事件&lt;/div&gt;&lt;div&gt;dealwithsignal函数重置标识符&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1049.5" y="1749" width="320.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-162" value="SIGALARM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1664" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-163" value="触发timer_handle下的tick函数&lt;div&gt;遍历处理定时器容器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="1044.5" y="1852" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.785;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC0000;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-158" target="uyQCsETFACLwB1ddb7fu-161">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1301" y="1699" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-167" value="SIGTERM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="1234" y="1666" width="73" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-171" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#004c99&quot;&gt;timeout=true&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1014.5" y="1819" width="79" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-173" value="eventLoop退出while循环&lt;div&gt;结束程序&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="1852" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-174" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;stop_server=true&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="1818" width="101" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-175" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.296;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#cce5ff;strokeColor=#004C99;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1108" y="1811" as="sourcePoint" />
+            <mxPoint x="1107.8200000000002" y="1853.1999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-176" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.296;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1301" y="1810" as="sourcePoint" />
+            <mxPoint x="1300.8200000000002" y="1852.1999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

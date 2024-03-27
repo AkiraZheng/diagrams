@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T07:59:22.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="mUcS54sNgQpDaw21lJbF" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T08:00:00.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="4pPHAUhKD-Lt_mjITtJL" version="24.0.2" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1472,8 +1472,8 @@
         <mxCell id="uyQCsETFACLwB1ddb7fu-162" value="SIGALARM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#004C99;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1664" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uyQCsETFACLwB1ddb7fu-163" value="触发timer_handle下的tick函数&lt;div&gt;遍历处理定时器容器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004C99;" vertex="1" parent="1">
-          <mxGeometry x="1044.5" y="1852" width="170" height="50" as="geometry" />
+        <mxCell id="uyQCsETFACLwB1ddb7fu-163" value="触发timer_handle下的tick函数&lt;div&gt;遍历处理定时器容器&lt;/div&gt;&lt;div&gt;（删除到期连接和定时器节点）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="1044.5" y="1852" width="170" height="54" as="geometry" />
         </mxCell>
         <mxCell id="uyQCsETFACLwB1ddb7fu-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.785;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC0000;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-158" target="uyQCsETFACLwB1ddb7fu-161">
           <mxGeometry relative="1" as="geometry">

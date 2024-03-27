@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T09:15:05.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="y3v4JgEzgne4NSbeqrlf" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T10:06:33.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ZsZEMitKd6abbVdHLx26" version="24.0.2" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1552,7 +1552,12 @@
             <mxPoint x="489" y="3245.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uyQCsETFACLwB1ddb7fu-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-200" target="uyQCsETFACLwB1ddb7fu-204">
+        <mxCell id="uyQCsETFACLwB1ddb7fu-215" value="缓冲区满了" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uyQCsETFACLwB1ddb7fu-203">
+          <mxGeometry x="0.4413" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-206" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-200" target="uyQCsETFACLwB1ddb7fu-204">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uyQCsETFACLwB1ddb7fu-200" value="文件&lt;div&gt;缓冲区&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">

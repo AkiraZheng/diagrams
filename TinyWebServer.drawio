@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T09:10:23.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="iL4ueEGYMzn8q2BdjWI1" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T09:12:43.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="y7SsCyMD3QCBgDLOazB_" version="24.0.2" type="github">
   <diagram name="第 1 页" id="1_HqDCQ-dHmruRY8cEo1">
     <mxGraphModel dx="1042" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1547,11 +1547,35 @@
         <mxCell id="uyQCsETFACLwB1ddb7fu-199" value="fputs()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="94" y="3234" width="81" height="46" as="geometry" />
         </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=27.5;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-200" target="uyQCsETFACLwB1ddb7fu-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-200" target="uyQCsETFACLwB1ddb7fu-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uyQCsETFACLwB1ddb7fu-200" value="文件&lt;div&gt;缓冲区&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="225" y="3217" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uyQCsETFACLwB1ddb7fu-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-199" target="uyQCsETFACLwB1ddb7fu-200">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-202" value="由缓冲区写入文件中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="3222" width="78" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyQCsETFACLwB1ddb7fu-204" target="uyQCsETFACLwB1ddb7fu-202">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="3293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-209" value="强制&lt;div&gt;清空缓冲区&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uyQCsETFACLwB1ddb7fu-208">
+          <mxGeometry x="-0.2658" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyQCsETFACLwB1ddb7fu-204" value="fputs()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="3258" width="81" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
